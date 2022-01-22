@@ -23,7 +23,6 @@ browserLang = Object.keys(localeMap).includes(browserLang)
 const messages = { 'DE-de': de, 'EN-us': en }
 
 const App = function App() {
-  // With redux:  <ConnectedRouter history={history}>
   const [locale] = useState<keyof typeof messages>(localeMap[
     browserLang
   ] as keyof typeof messages)
