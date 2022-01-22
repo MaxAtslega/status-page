@@ -1,0 +1,6 @@
+{
+  "user.logout": "Logout",
+  "app.welcome": "Hi! {name}",
+  "admin.welcome": "Welcome! {name}",
+  "app.dashboard.title": "Dashboard"
+}

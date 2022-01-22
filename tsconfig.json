@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "baseUrl": "./",
+  "paths": {
+    "@src/*": [
+      "src/*"
+    ],
+    "@actions/*": [
+      "src/actions/*"
+    ],
+    "@reducers/*": [
+      "src/reducers/*"
+    ],
+    "@components/*": [
+      "src/components/*"
+    ],
+    "@i18n/*": [
+      "src/i18n/*"
+    ],
+    "@routes/*": [
+      "src/routes/*"
+    ],
+    "@styles/*": [
+      "src/styles/*"
+    ],
+    "@images/*": [
+      "src/images/*"
+    ],
+    "@utils/*": [
+      "src/utils/*"
+    ],
+    "@store/*": [
+      "src/store/*"
+    ],
+    "@models/*": [
+      "src/models/*"
+    ],
+    "@sagas/*": [
+      "src/sagas/*"
+    ],
+    "@epics/*": [
+      "src/epics/*"
+    ],
+  },
+  "exclude": ["src/sw.js", "src/sw-build.js"],
+  "include": ["src"]
+}
