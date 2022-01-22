@@ -1,0 +1,7 @@
+build/*/**
+build
+*.chunk.js
+*.js
+*.d.ts
+node_modules
+node_modules/*/**
